@@ -1,0 +1,96 @@
+
+/* TYPOGRAPHY*/
+body{
+  font-size:18px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4{
+  font-weight: bold;
+  padding-bottom:0.5em;
+}
+/*Navbar*/
+.navbar-light .navbar-nav a.nav-link {
+    color: rgba(0,0,0,.8);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+div.dropdown-menu{
+  top:143%;
+  -webkit-box-shadow: 0px -3px 5px 0px rgba(221,221,221,1);
+  -moz-box-shadow: 0px -3px 5px 0px rgba(221,221,221,1);
+  box-shadow: 0px -3px 5px 0px rgba(221,221,221,1);
+  border:none;
+  border-radius:0;
+}
+.mid-nav{
+  display:flex;
+  flex-direction:row;
+  list-style-type:none;
+  width:100%;
+  justify-content:space-between;
+
+}
+.mid-nav-item{
+  padding:0 20px;
+}
+.mid-nav-item a{
+  text-decoration:none;
+  color: #222;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding-bottom:5px;
+}
+.mid-nav-item a:hover{
+  border-bottom: 4px solid orange;
+  text-decoration:none;
+  color: #222;
+}
+.logo{
+  max-width:100px;
+}
+
+/*Layout*/
+section{
+  padding: 4% 0;
+}
+.carousel-section{
+  padding-top:0;
+}
+.hero{
+  color:#fff;
+  height:auto;
+  background-image:url("../img/downtown-at-night.jpg");
+  background-size:cover;
+}
+.hero-content{
+  padding:8% 0;
+}
+/*Blocks*/
+img{
+  width:100%;
+}
+ol.carousel-indicators{
+  bottom:-80px;
+}
+ol.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color:#999;
+  margin-right:9px;
+  margin-left:9px;
+}
+
+.cta-3{
+  background-color:#202945;
+  color:#fff;
+  text-align:center;
+  margin: 0 auto;
+}
+.cta-3 img{
+  width: 60px;
+  padding:30px 0;
+}
+.cta-3 .col-lg-4{
+  padding: 0 4%;
+}
